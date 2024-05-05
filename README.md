@@ -7,4 +7,4 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices.
 
-I, Kimora859 made some changes to this file by creating a registration page.
+I, Kimora859 made some changes to this file by creating a registration page incase a new user visits the website.

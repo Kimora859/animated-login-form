@@ -1,7 +1,7 @@
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (min-width: 576px){
-   .login{
+   .login, .register{
       justify-content: center;
 
       &__form{
@@ -14,3 +14,4 @@
       }
    }
 }
+

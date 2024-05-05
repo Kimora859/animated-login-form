@@ -47,55 +47,49 @@ img {
 }
 
 /*=============== LOGIN ===============*/
-.login {
+.register {
   position: relative;
-  height: 100vh;
+  height: 100%;
   display: grid;
   align-items: center;
+  background-image: url(/assets/img/login-bg.png);
+  background-position: center;
 }
-.login__img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-}
-.login__form {
+.register__form {
   position: relative;
   background-color: hsla(0, 0%, 10%, 0.1);
   border: 2px solid var(--white-color);
+  margin: 2rem 0rem;
   margin-inline: 1.5rem;
   padding: 2.5rem 1.5rem;
   border-radius: 1rem;
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
 }
-.login__title {
+.register__title {
   text-align: center;
   font-size: var(--h1-font-size);
   font-weight: var(--font-medium);
   margin-bottom: 2rem;
 }
-.login__content, .login__box {
+.register__content, .register__box {
   display: grid;
 }
-.login__content {
+.register__content {
   row-gap: 1.75rem;
   margin-bottom: 1.5rem;
 }
-.login__box {
+.register__box {
   grid-template-columns: max-content 1fr;
   align-items: center;
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
   border-bottom: 2px solid var(--white-color);
 }
-.login__icon, .login__eye {
+.register__icon, .register__eye {
   font-size: 1.25rem;
 }
-.login__input {
+.register__input {
   width: 100%;
   padding-block: 0.8rem;
   background: none;
@@ -103,52 +97,52 @@ img {
   position: relative;
   z-index: 1;
 }
-.login__box-input {
+.register__box-input {
   position: relative;
 }
-.login__label {
+.register__label {
   position: absolute;
   left: 0;
   top: 13px;
   font-weight: var(--font-medium);
   transition: top 0.3s, font-size 0.3s;
 }
-.login__eye {
+.register__eye {
   position: absolute;
   right: 0;
   top: 18px;
   z-index: 10;
   cursor: pointer;
 }
-.login__box:nth-child(2) input {
+.register__box:nth-child(2) input {
   padding-right: 1.8rem;
 }
-.login__check, .login__check-group {
+.register__check, .register__check-group {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.login__check {
+.register__check {
   margin-bottom: 1.5rem;
 }
-.login__check-label, .login__forgot, .login__register {
+.register__check-label, .register__forgot, .register__login {
   font-size: var(--small-font-size);
 }
-.login__check-group {
+.register__check-group {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
 }
-.login__check-input {
+.register__check-input {
   width: 16px;
   height: 16px;
 }
-.login__forgot {
+.register__forgot {
   color: var(--white-color);
 }
-.login__forgot:hover {
+.register__forgot:hover {
   text-decoration: underline;
 }
-.login__button {
+.register__button {
   width: 100%;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -157,29 +151,29 @@ img {
   cursor: pointer;
   margin-bottom: 2rem;
 }
-.login__register {
+.register__login {
   text-align: center;
 }
-.login__register a {
+.register__login a {
   color: var(--white-color);
   font-weight: var(--font-medium);
 }
-.login__register a:hover {
+.register__login a:hover {
   text-decoration: underline;
 }
 
 /* Input focus move up label */
-.login__input:focus + .login__label {
+.register__input:focus + .register__label {
   top: -12px;
   font-size: var(--small-font-size);
 }
 
 /* Input focus sticky top label */
-.login__input:not(:-moz-placeholder-shown).login__input:not(:focus) + .login__label {
+.register__input:not(:-moz-placeholder-shown).register__input:not(:focus) + .register__label {
   top: -12px;
   font-size: var(--small-font-size);
 }
-.login__input:not(:placeholder-shown).login__input:not(:focus) + .login__label {
+.register__input:not(:placeholder-shown).register__input:not(:focus) + .register__label {
   top: -12px;
   font-size: var(--small-font-size);
 }
@@ -198,4 +192,4 @@ img {
   .login__title, .register__title {
     font-size: 2rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles2.css.map */

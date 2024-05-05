@@ -5,9 +5,7 @@
 	margin: 0;
 }
 
-body,
-input,
-button{
+body, input, button{
 	font-size: var(--normal-font-size);
 	font-family: var(--body-font);
 }
@@ -16,8 +14,7 @@ body{
 	color: var(--white-color);
 }
 
-input,
-button{
+input, button{
 	border: none;
 	outline: none;
 }
